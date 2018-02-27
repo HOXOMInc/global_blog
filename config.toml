@@ -11,30 +11,30 @@ relativeurls = true
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "About Us"
+    url = "http://hoxo-m.com"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/HOXOMInc"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://twitter.com/hoxom_inc"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Thus blog is written by a bunch of people who work on HOXO-M."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
     highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
+    highlightjsLang = ["r", "python", "julia", "yaml"]
     highlightjsTheme = "github"
 
     MathJaxCDN = "//cdn.bootcss.com"
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
+    url = "logo_blog.png"
     width = 50
     height = 50
     alt = "Logo"
-
+    

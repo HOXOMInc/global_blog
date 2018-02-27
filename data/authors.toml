@@ -1,0 +1,17 @@
+["Koji Makiyama"]
+  name = "Koji Makiyama"
+  bio = "Randomly walking my way though a career in statistics"
+  # location =  ""
+  # website =  ""
+  thumbnail = "https://github.com/HOXOMInc/website/blob/master/img/team/makiyama.png?raw=true"
+  # twitter = ""
+  # github = ""
+  
+["Shinya Uryu"]
+  name =  "Shinya Uryu"
+  bio = "Digital janitor. Passionate about geospatial, data science and managements.
+  location =  "Tsukuba, Japan"
+  website =  "https://suryu.me"
+  thumbnail = "https://github.com/HOXOMInc/website/blob/master/img/team/uryu.jpg?raw=true"
+  twitter = "https://twitter.com/u_ribo"
+  github = "https://github.com/uribo"
