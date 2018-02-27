@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
-theme = "hugo-lithium-theme"
+title = "HOXO-M Official Blog"
+theme = "tuftesque"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "^docker-compose.yml$", "^Dockerfile$"]
