@@ -1,0 +1,39 @@
+---
+title: "ARGAMA: BLOGDOWN environment with docker for teams."
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](inst/header_logo.png)
+
+## What's this
+
+The [blogdown](https://bookdown.org/) package that static websites generater using [RMarkdown](http://rmarkdown.rstudio.com/) and [Hugo](https://gohugo.io/) systems. Blogdown is powerful for R users to easily manage a static blog site. But when managing blogs by teams, it is difficult to maintain due to differences in own environment and package versions.
+
+The argama projects use [docker](https://www.docker.com/) container to solve this problem. By describing the R package and system used for the dockerfile in the repository, you can expect to make the blogdown operation easier on the team.
+
+## How to use
+
+Download this repository as .zip archives. Running container using `docker-compose`.
+
+```{bash, eval = FALSE}
+cd argama
+docker-compose up
+```
+
+Open `loccalhost:8787` in blowswer and go to rproject (your blog project).
+
+```{r, eval = FALSE, echo = TRUE}
+# Install hugo
+blogdown::install_hugo(version = "0.35")
+
+# Serve site (already setup hugoe and default blog themes)
+blogdown::serve_site()
+```
+
+Done!
+
+Next, customize from this repository and writing your articles.
