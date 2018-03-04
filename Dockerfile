@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:latest
+FROM rocker/geospatial:3.4.3
 Maintainer "Shinya Uryu" <suika1127@gmail.com>
 
 RUN apt-get update \
