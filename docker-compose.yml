@@ -5,4 +5,4 @@ services:
     ports:
       - "8787:8787"
     volumes:
-      - .:/home/rstudio/argama
+      - .:/home/rstudio/global_blog
